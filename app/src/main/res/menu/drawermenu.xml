@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/group_one">
+        <item
+            android:id="@+id/nav_history"
+            android:title="@string/history_oneline" />
+    </group>
+
+    <group
+        android:id="@+id/group_two">
+        <item
+            android:id="@+id/nav_monuments"
+            android:title="@string/monuments" />
+        <item
+            android:id="@+id/nav_accomodations"
+            android:title="@string/accomodations" />
+        <item
+            android:id="@+id/nav_restaurants"
+            android:title="@string/restaurants" />
+        <item
+            android:id="@+id/nav_things"
+            android:title="@string/things" />
+    </group>
+
+    <group
+        android:id="@+id/group_three">
+        <item
+            android:id="@+id/nav_about"
+            android:title="@string/about" />
+    </group>
+</menu>

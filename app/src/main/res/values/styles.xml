@@ -1,0 +1,41 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:listDivider">@color/textColor</item>
+    </style>
+
+    <!-- Your custom ActionBar Style -->
+
+    <style name="CustomActionBar" parent="AppTheme">
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="windowNoTitle">true</item>
+        <!-- Support library compatibility -->
+        <item name="windowActionBarOverlay">true</item>
+        <item name="android:iconPreview">@drawable/menu</item>
+    </style>
+
+    <style name="menu">
+        <item name="android:layout_marginTop">@dimen/menu_margins</item>
+        <item name="android:layout_marginLeft">@dimen/menu_margins</item>
+    </style>
+
+    <style name="text">
+        <item name="android:layout_marginTop">@dimen/text_top_margin</item>"
+        <item name="android:layout_marginLeft">@dimen/menu_margins</item>
+        <item name="android:layout_marginRight">@dimen/menu_margins</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="text2">
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginLeft">@dimen/menu_margins</item>
+        <item name="android:layout_marginRight">@dimen/menu_margins</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+</resources>

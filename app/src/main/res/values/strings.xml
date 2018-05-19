@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Esztergom Guide</string>
+    <string name="image_desc">Esztergom</string>
+    <string name="history_oneline">The history of the town</string>
+    <string name="history_line1">The history of</string>
+    <string name="history_line2">the town</string>
+    <string name="history">Esztergom is one of the most historic towns in Hungary. Throughout the rich history of our town,
+        times of bright kings, significant events, rich palaces and churches were followed by the massacre of vicious battles,
+        the raids of Tatar and Turkish hords – devastation, followed by reconstruction.
+        Esztergom, as it existed in the Middle Ages, now rests in the ground, under today’s town,
+        and can only be accessed via archeological explorations, since the old town was destroyed during the 150 years of Turkish rule.
+        Its residents were killed or imprisoned. Consequently, at those times of terror, everybody tried to flee the region. Following the defeat of the Turkish,
+        the new settlers carried away the remains, and built a new town. The results of the most recent archeological excavations reveal that the Várhegy (Castle Hill)
+        and its vicinity have been inhabited since the end of the Ice Age (20,000 years). The settlement that was founded gained significance after 960 when Géza (who was later crowned king)
+        chose Esztergom his residence. His son, Vajk, who was later called Saint Stephen the First, was born in his palace built on the Roman castrum on the Várhegy (Castle Hill)
+        in about 969-975. At the same location, Géza built the the first church in the memory of Saint Stephen’s marthyrdom. In 973 Esztergom served as the starting point of an important historical event.
+        King Stephen, to replace the old regal residence, built a palace on the southern side of the hill and a basilica in the middle of the hill, for Saint Adalbert the leader of the Hungarian church, the archbishop of Esztergom.
+        In 1000 Stephen was crowned king here. From the time of his rule up to the beginning of the 13th century, the only mintage of the country operated here. At the same period the castle of Esztergom was built, which served not
+        only as the regal residence until 1241 (the Tatar invasion) but also as the center of the Hungarian state, religion, and Esztergom county.
+         In the period between 1526 and 1543, when there were two kings in Hungary, Esztergom was under siege six times. – once the forces  of  Ferdinand or János Szapolyai, at other times the Turkish attacked.
+        Finally, in 1530, Ferdinand occupied the castle. He put foreign mercenaries in the castle, and sent the chapter and the bishopry to Nagyszombat and Pozsony (that is why some of the treasury, the archives and the library remained intact).
+        In 1543 Sultan Suleiman attacked the castle with an enormous army, and countless cannons. Following two years of heroic struggle of resistance, the foreign (Spanish, Italian and German) guards betrayed the castle. This was the period when the outskirts were finally destroyed.
+        The damaged buildings were not rebuilt any more. All means were used to rebuild and strengthen the fortresses or to build new ones. At the same time, the eastern section of the Saint Adalbert Church and other significant buildings of the castle were devastated.
+        In 1761 the bishopry regained control over the castle, where they started the preliminary processes of the reconstruction of the new religious center: the middle of the Várhegy (Castle Hill),
+        most of the remains of Saint Stephen and Saint Adalbert churches were carried away to provide room for the new cathedral.
+        The winding streets of the town, with its church towers create a historical atmosphere. Below the Basilica, at the edge of the mountain stand the old walls, bastions and rondellas – the remains of the castle of Esztergom.
+        The remains of one section of the regal palace and castle that had been built during the Turkish rule had been buried in the ground up until the 1930s.
+        Most parts of the palace were explored and restored in the period between 1934 and 1938, but even today there are archeological excavations in progress.
+        Passing through the narrow stairs, alleys, under archs and gates built in Romanian style, a part of the past seems to come to life. This part of the palace was built in the time of Béla III. With his wife, Lajos VII‘s daughter arrived French architects,
+        who constructed the late-Roman, early-Gothic building at the end of the 12th century. </string>
+    <string name="more_info">More about the history of the city on the link:</string>
+    <string name="history_web">http://www.esztergom.hu/index.php/main/page/cikk/the-history-of-our-town-3643</string>
+    <string name="monuments">Monuments</string>
+    <string name="accomodations">Accomondations</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="things">Things to do</string>
+    <string name="thebasilica">The Basilica</string>
+    <string name="thecastle">The Castle</string>
+    <string name="basilica_info">The monumental Basilica, built between 1822 and 1869 is the largest church of the country.
+        In the sacrarium one can admire Grigoletti’s altarpiece, titled ‘Maria’s ascension’, which is the largest painting on a single canvas (13*6,5 m) of the whole world.
+        The only medieval building of the cathedral that prevailed, one of the most magnificent buildings of the Reneissance era, the Bakócz chapel was built in the southern side of the Basilica.
+        The shrines of high priests and burial places of archbishops can be found in the crypt below the church. This is also where Primate József Mindszenty’s relics were laid on 4 May 1991.
+        Since then, the undercroft (crypts) has become a popular pilgrim destination.</string>
+    <string name="about">About the app</string>
+</resources>
