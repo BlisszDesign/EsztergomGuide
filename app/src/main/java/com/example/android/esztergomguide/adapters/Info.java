@@ -2,9 +2,9 @@ package com.example.android.esztergomguide.adapters;
 
 public class Info {
     private int mImageResourceId;
-    private String mInfo;
+    private int mInfo;
 
-    public Info (int imageResourceId, String info) {
+    public Info (int imageResourceId, int info) {
         mImageResourceId = imageResourceId;
         mInfo = info;
     }
@@ -13,7 +13,7 @@ public class Info {
         return mImageResourceId;
     }
 
-    public String getInfo() {
+    public int getInfo() {
         return mInfo;
     }
 }

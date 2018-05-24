@@ -2,9 +2,9 @@ package com.example.android.esztergomguide.adapters;
 
 public class Catalog {
     private int mImageResourceId;
-    private String mLabel;
+    private int mLabel;
 
-    public Catalog(String label, int imageResourceId) {
+    public Catalog(int label, int imageResourceId) {
         mImageResourceId = imageResourceId;
         mLabel = label;
     }
@@ -13,7 +13,7 @@ public class Catalog {
         return mImageResourceId;
     }
 
-    public String getLabel() {
+    public int getLabel() {
         return mLabel;
     }
 }

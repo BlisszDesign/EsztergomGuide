@@ -18,6 +18,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/roboto"
         style="@style/text2"
-        android:text="@string/basilica_info"/>
+        android:text="@string/basilica_info"
+        android:autoLink="all"/>
 
 </LinearLayout>

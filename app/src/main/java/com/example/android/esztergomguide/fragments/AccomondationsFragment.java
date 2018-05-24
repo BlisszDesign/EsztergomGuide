@@ -18,33 +18,26 @@ import com.example.android.esztergomguide.adapters.CatalogAdapter;
 
 import java.util.ArrayList;
 
-public class MonumentsFragment extends Fragment {
+public class AccomondationsFragment extends Fragment {
     public int info;
     private ImageView cover;
     private TextView coverLabel;
 
-    public MonumentsFragment() {
-
+    public AccomondationsFragment() {
     }
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.list, container, false);
         cover = (ImageView) rootView.findViewById(R.id.background);
         coverLabel = (TextView) rootView.findViewById(R.id.layoutName);
-        cover.setImageResource(R.drawable.bazilika);
-        coverLabel.setText(R.string.monuments);
+        cover.setImageResource(R.drawable.hotel);
+        coverLabel.setText(R.string.accomodations);
 
         final ArrayList<Catalog> catalog = new ArrayList<Catalog>();
-        catalog.add(new Catalog(R.string.thebasilica, R.drawable.bazilika));
-        catalog.add(new Catalog(R.string.thecastle, R.drawable.castle));
-        catalog.add(new Catalog(R.string.townhall, R.drawable.town_hall));
-        catalog.add(new Catalog(R.string.stephenstatue, R.drawable.stephen));
-        catalog.add(new Catalog(R.string.bbmuseum, R.drawable.bbm));
-        catalog.add(new Catalog(R.string.danubemuseum, R.drawable.dunamuzeum));
-        catalog.add(new Catalog(R.string.primate, R.drawable.ppalota));
-        catalog.add(new Catalog(R.string.christian, R.drawable.matias));
+        catalog.add(new Catalog(R.string.bellue, R.drawable.belllue));
+        catalog.add(new Catalog(R.string.portobello, R.drawable.portobello));
+        catalog.add(new Catalog(R.string.adalbert, R.drawable.saint_adalbert));
 
         final CatalogAdapter adapter = new CatalogAdapter(getActivity(),catalog);
         ListView listView = (ListView) rootView.findViewById(R.id.list);
@@ -55,10 +48,10 @@ public class MonumentsFragment extends Fragment {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Intent intent = new Intent(getActivity(), InfoActivity.class);
                 Catalog clickedItem = (Catalog) adapter.getItem(position);
-               info = clickedItem.getLabel();
+                info = clickedItem.getLabel();
                 intent.putExtra("infos", info);
                 startActivity(intent);
             }
         });
-    return rootView;}
+        return rootView;}
 }

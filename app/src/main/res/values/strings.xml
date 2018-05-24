@@ -36,10 +36,113 @@
     <string name="things">Things to do</string>
     <string name="thebasilica">The Basilica</string>
     <string name="thecastle">The Castle</string>
+    <string name="townhall">The town hall</string>
+    <string name="stephenstatue">Statue of King Saint Stephen</string>
+    <string name="bbmuseum">Balassa Bálint museum</string>
+    <string name="danubemuseum">Danube museum</string>
+    <string name="primate">Primate palace</string>
+    <string name="christian">Christian museum</string>
     <string name="basilica_info">The monumental Basilica, built between 1822 and 1869 is the largest church of the country.
         In the sacrarium one can admire Grigoletti’s altarpiece, titled ‘Maria’s ascension’, which is the largest painting on a single canvas (13*6,5 m) of the whole world.
         The only medieval building of the cathedral that prevailed, one of the most magnificent buildings of the Reneissance era, the Bakócz chapel was built in the southern side of the Basilica.
         The shrines of high priests and burial places of archbishops can be found in the crypt below the church. This is also where Primate József Mindszenty’s relics were laid on 4 May 1991.
-        Since then, the undercroft (crypts) has become a popular pilgrim destination.</string>
+        Since then, the undercroft (crypts) has become a popular pilgrim destination.
+        \n\n<b>Cathedral Treasury</b>\n\nIn the upstairs rooms of the Basilica, visitors can admire the masterpieces of the world-famous Cathedral Treasury.
+        Hungary’s richest religious treasury, goldsmith and textile collection is significant on a worldwide scale. The most important pieces of the filigrees are the coronation cross from the Arpad era,
+        (This is what Hungarian kings swore on at the coronation ceremony.) and the Mathias calvary, that is made of gold and decorated with pearls, jewels.</string>
+    <string name="basilica_address">2500 Esztergom\nSzent István tér 1.\nHungary</string>
+    <string name="basilica_web">www.bazilika-esztergom.hu\nhttp://kincstar.bazilika-esztergom.hu</string>
+    <string name="castle_info">Upon the castle museum visitors can admire the remains of the palaces of kings from the Árpad era, and the later archbishops.
+        The castle museum is in these buildings. Of the masterpieces of the Hungarian Roman architecture, mention must be made of the famous Saint Stephen room, the motte and the late-Roman, early-Gothic regal chapel.
+        There are several exhibitions in the rooms that display Esztergom’s past.</string>
+    <string name="castle_address">2500 Esztergom\nSzent István tér 1.\nHungary</string>
+    <string name="castle_web">http://www.varmegom.hu</string>
+    <string name="townhall_info">The Town Hall building determines the athmosphere of the main square. Originally, General ‘Vak Bottyán’s curia stood there. He was a famous figure of the Rákóczi war of independence.
+        It was rebuilt in 1772-1773. Its façade displays Esztergom’s coat of arms, made of red marble.</string>
+    <string name="townhall_address">2500 Esztergom\nSzéchényi tér 1.\nHungary</string>
+    <string name="townhall_web">www.esztergom.hu</string>
+    <string name="stephenstatueinfo">The 12 m high white statue was completed in 2001, showing the moment when the bishop is placeing the crown on Saint Stephen\'s head.
+        Saint Stephen was the first king of Hungary. It\'s located on the top of the hill next to the Cathedral. Great panoramic view at this spot to the river. </string>
+    <string name="step_address">2500 Esztergom\nHungary</string>
+    <string name="step_web">>www.esztergom.hu</string>
+    <string name="bbmuseum_info">This museum, in the old Castle County House exhibitions of significant archeological, historical and art are on display.
+        - The history of the Sacra Corona, local history exhibition, Balassa Bálint Museum Exhibitions Building,  (13 Pázmány Péter street.) Esztergom in the Middle Ages – an exhibition of the Millenium.</string>
+    <string name="bbmuseum_address">2500 Esztergom\nMindszenty tér 5.\nHungary</string>
+    <string name="bbmuseum_web">www.balassamuzeum.hu</string>
+    <string name="danubem_info">Within the centuries-old walls, at its righteous place is located the Danube Museum, officially called: Magyar Környezetvédelmi és Vízügyi Múzeum (Museum of Hungarian Hydrology and Environmental Protection).
+        It is a specialized museum with exhibits from the whole country. The prebendal house, built in the second half of the 18th century is located in the centre of Esztergom. Its chambers housed the Hungarian crown on 20 February 1790 on its way from Vienna to Buda.
+        The building also functioned as the centre of aid service during the flooding of 1838 that left the entire Dunakanyar area and Pest in ruins. The museum collects, arranges and displays histories, written documents and objects about country’s natural waters.
+        The main thematic units of the exhibitions include: Physical and chemical properties of water, Water regulations, floodings, flood control, The history of Hungarian cartography, The history of water-supply and canals,
+        Universal and Hungarian Technical and Water Conservation Chronology, Playroom for children : Physical properties of water (flood gates, wells, water pumps, water-wheels, stertung waves and currents)</string>
+    <string name="danubem_address">2500 Esztergom\nKölcsey Ferenc utca 2.\nHungary</string>
+    <string name="danubem_web">http://www.dunamuzeum.hu</string>
+    <string name="primate_info">Originally a Jesuit friary, later it was rebuilt by Archbishop János Simor, according to the plans of József Lippert. (1880-1882).</string>
+    <string name="primate_address">2500 Esztergom\nMindszenty tér 2.\nHungary</string>
+    <string name="primate_web">http://www.keresztenymuzeum.hu/</string>
+    <string name="christian_info">The second floor of the primate palace houses the worldwide known Christian Museum, founded by Archbishop János Simor in 1875. It exhibits collections of medieval Hungarian tablature and sculpture,
+        Italian painting in the 13th – 16th centuries, Batavian, German, Austrian painting in the15th – 16th centuries, baroque painting and handicraft. Its tapestry from the 15th- 17th centuries are also well known.
+        The most famous pieces include: Tamas Kolozsvári’s altar of Galambszentbenedek (1427), the ‘Úrkoporsó’ of Galambszentbenedek (around 1480), the four tablatures by M.S. master (1506)</string>
+    <string name="christian_address">2500 Esztergom\nMindszenty tér 2.\nHungary</string>
+    <string name="christian_web">http://www.keresztenymuzeum.hu/</string>
+    <string name="bellue">Bellevue Hotel****</string>
+    <string name="bellue_info">We are waiting for our guests in our Hotel with 80 rooms fitted with modern conveniences.
+        We are at our guests\' service with coloured supply considering the position of the rooms: we have in classic,
+        standard and superior rooms with balcony and without balcony; rooms looking out on the forest, Danube and the ornamental garden.</string>
+    <string name="bellue_address">2500 Esztergom, Búbánatvölgy\nŐrtorony u 49.\nHungary</string>
+    <string name="bellue_web">http://www.bellevuehotel.hu/hotel</string>
+    <string name="portobello">PORTOBELLO WELLNESS &amp; YACHT HOTEL</string>
+    <string name="portobello_info">Our hotel has 95 rooms and themed suites for the comfort of our guests. Our suites, including Hawaii,
+        Bali and Japan\'s mood, are especially recommended for families, providing comfortable accommodation for up to 4 to 5 people.
+        The suites of the two air-conditioned suites have a bath and shower, and there is also a pull-out sofa in the lounge area.
+        Large suites on the floor - Grande Familia, Il Capitano, Porto Rosa, Aquaplus windows have a beautiful view of the Aquasziget Experience Bath and the Basilica.</string>
+    <string name="portobello_address">2500 Esztergom\nTáncsics Mihály u. 5.\nHungary</string>
+    <string name="portobello_web">https://portobello.hu/en</string>
+    <string name="adalbert"> Szent Adalbert Hotel</string>
+    <string name="adalbert_info">Rooms:\6 double rooms, 2 AC\n19 Standard double room\n9 single rooms, 4 AC\n
+    1 suite for 4 persons\none 6+2 bed family room with AC\n
+    All rooms are equipped with bath-room, colour TV, minibar, telephone and internet connection.</string>
+    <string name="adalbert_address">2500 Esztergom\nSzent István Tér 10.\nHungary</string>
+    <string name="adalbert_web">http://www.szentadalbert.hu/</string>
+    <string name="csulok">CSülök Csárda</string>
+    <string name="csulok_info">Our restaurant is easy to find: it is located in the historic environment of the castle,
+        by the curve at the foot of the Basilica on the corner of Road 11 and Batthyány street. In the cellar of the old house,
+        we await guests with traditional and new specialities of the Hungarian cuisine.</string>
+    <string name="csulok_address">2500 Esztergom\nBatthyány u. 9.\nHungary</string>
+    <string name="csulok_web">http://www.csulokcsarda.hu/</string>
+    <string name="nautilus">Nautilus Sailor Bar</string>
+    <string name="nautilus_info">The Nautilus Boat Bar is one of the very few locations where
+        you can dine or enjoy your drinks while also be fascinated by the beautiful views of the Bazilika or the Fort of Esztergom.
+        Nautica is trying to fill this niche by creating a unique venue in the historical city that hopefully will fulfill all expectations.</string>
+    <string name="nautilus_address">2500 Esztergom\nGesztenye fasor (Next to Hotel Esztergom)\nHungary</string>
+    <string name="nautilus_web">http://nautica-yacht.hu/en/index.html</string>
+    <string name="ppince">Prímás Pince</string>
+    <string name="ppince_info">The cuisine of the award-winning chef is traditional with the hint of a modern twist for moderate prices.
+        To accompany the great dishes we offer a selection of 100 different Hungarian wines from our cellar, a range that covers sparkling wines,
+        dry white and red wines including rare native varieties and the famous sweet wines of the Tokaj region</string>
+    <string name="ppince_address">2500 Esztergom\nSzent István tér 4.\nHungary</string>
+    <string name="ppince_web">http://www.primaspince.hu/</string>
+    <string name="aqua">Aquasziget</string>
+    <string name="aqua_info">An experience pool, relaxation pool, jacuzzi, children\'s pool,
+        infrasauna and two water slides are at your disposal. The indoor experience pool is equiped
+        with twisting corridors, geysers, neck showers, waterfalls, water mushroom, massage nozzles,
+        massage jets and a climbing wall. The relaxation pool offers a pleasant relaxation for those
+        who are looking for relaxation with a lazy river, solarium, neck showers and seating.
+        The pleasantly warm water and whirlpools of the jacuzzi pool overflow the humped body.
+        The inner child pool with splashy clown and mini slides is a special experience for children.
+    The infra-red sauna inside pleasantly warms and detoxicates the body.
+    The two slides with interesting audio and light effects are great place for fun.</string>
+    <string name="aqua_address">2500 Esztergom\nTáncsics Mihály u. 5\nHungary </string>
+    <string name="aqua_web">http://www.aquasziget.hu/</string>
+    <string name="ship">Boat excursion</string>
+    <string name="ship_info">Sightseeing at the most picturesque parts of the Danube around Esztergom</string>
+    <string name="ship_address">Esztergom Hajóállomás</string>
+    <string name="ship_web">http://www.mahartpassnave.hu/en/</string>
+    <string name="mystery">House of mysteries</string>
+    <string name="mystery_info">Our first service was the Escape Room - and the outdoor detective games,
+        if you also enjoy logical challenges and investigation experiences, but you do not want to stay between the four walls.
+        We created something new with the "city quiz" services and we developed the crime sightseeing.
+        This service, Town of Mysteries became the first city detective adventure in Hungary. Later we expanded our family with a new member called Mystery Dinner. </string>
+    <string name="mystery_address">2500 Esztergom\nTáti út 9/a\nHungary</string>
+    <string name="mystery_web">http://esztergom.houseofmysteries.hu/</string>
     <string name="about">About the app</string>
 </resources>
