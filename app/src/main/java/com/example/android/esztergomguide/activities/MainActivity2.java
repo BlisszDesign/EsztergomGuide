@@ -11,6 +11,7 @@ import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
+import android.view.Window;
 
 import com.example.android.esztergomguide.R;
 import com.example.android.esztergomguide.fragments.AccomondationsFragment;
@@ -30,6 +31,7 @@ public class MainActivity2 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_main2);
 
         mDrawerLayout = findViewById(R.id.drawer);
@@ -38,6 +40,7 @@ public class MainActivity2 extends AppCompatActivity {
         toolbar.setNavigationIcon(R.drawable.menu);
         ActionBar actionbar = getSupportActionBar();
         actionbar.setDisplayHomeAsUpEnabled(true);
+        actionbar.setDisplayShowTitleEnabled(false);
         actionbar.setHomeAsUpIndicator(R.drawable.menu);
         NavigationView navigationView = findViewById(R.id.nav_view);
 

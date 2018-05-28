@@ -20,6 +20,9 @@
             android:name=".activities.MainActivity2"
             android:label="History of the town"
             android:theme="@style/CustomActionBar"></activity>
+
+        <activity android:name=".activities.InfoActivity"
+            android:theme="@style/CustomActionBar"></activity>
     </application>
 
 </manifest>
