@@ -44,8 +44,8 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="140dp"
-        android:src="@drawable/play"
-        android:contentDescription="TODO" />
+        android:contentDescription="TODO"
+        android:src="@drawable/play" />
 
 
 </RelativeLayout>
