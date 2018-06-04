@@ -3,12 +3,16 @@ package com.example.android.esztergomguide.activities;
 import android.os.Bundle;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.DefaultItemAnimator;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
 import com.example.android.esztergomguide.R;
+import com.example.android.esztergomguide.adapters.CatalogAdapter;
 import com.example.android.esztergomguide.adapters.Info;
 import com.example.android.esztergomguide.adapters.InfoAdapter;
 
@@ -19,22 +23,24 @@ public class InfoActivity extends AppCompatActivity {
     private ImageView cover;
     private TextView coverLabel;
     private String infoText;
+    private RecyclerView recyclerView;
+    private RecyclerView.LayoutManager layoutManager;
+    private InfoAdapter adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.list);
+        recyclerView = (RecyclerView) findViewById(R.id.list_item);
+        layoutManager = new LinearLayoutManager(this);
+        recyclerView.setLayoutManager(layoutManager);
+        recyclerView.setItemAnimator(new DefaultItemAnimator());
+        recyclerView.setHasFixedSize(true);
         Bundle extras = getIntent().getExtras();
         info = extras.getInt("infos");
         cover = (ImageView) findViewById(R.id.background);
         coverLabel = (TextView) findViewById(R.id.layoutName);
         infoText = getResources().getString(info);
-        Toolbar toolbar = findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
-        toolbar.setNavigationIcon(R.drawable.menu);
-        ActionBar actionbar = getSupportActionBar();
-        actionbar.setDisplayHomeAsUpEnabled(true);
-        actionbar.setHomeAsUpIndicator(R.drawable.menu);
 
         ArrayList<Info> infos = new ArrayList<Info>();
 
@@ -159,10 +165,8 @@ public class InfoActivity extends AppCompatActivity {
                 infos.add(new Info(R.drawable.web, R.string.mystery_web));
                 break;
         }
-        final InfoAdapter adapter = new InfoAdapter(this, infos);
-        ListView listView = (ListView) findViewById(R.id.list);
-        listView.setAdapter(adapter);
 
-
+        adapter = new InfoAdapter(this, infos);
+        recyclerView.setAdapter(adapter);
     }
 }

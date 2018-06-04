@@ -7,7 +7,7 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="203dp">
+        android:layout_height="@dimen/big_height">
 
         <ImageView
             android:id="@+id/background"
@@ -28,11 +28,11 @@
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="72dp"
+            android:layout_marginTop="@dimen/margin_top"
             android:fontFamily="@font/cinzel"
             android:text="@string/history_line1"
             android:textColor="@color/textColor"
-            android:textSize="28dp" />
+            android:textSize="@dimen/title_text" />
 
         <TextView
             android:id="@+id/layoutName2"
@@ -43,20 +43,23 @@
             android:fontFamily="@font/cinzel"
             android:text="@string/history_line2"
             android:textColor="@color/textColor"
-            android:textSize="28dp" />
+            android:textSize="@dimen/title_text" />
 
     </RelativeLayout>
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:isScrollContainer="false">
+        android:fillViewport="true">
 
         <TextView
+            style="@style/text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/history"
             android:fontFamily="@font/roboto"
-            style="@style/text"/>
+            android:text="@string/history"
+            android:layout_gravity="fill"
+            android:textSize="@dimen/text_size_small"
+            android:paddingBottom="@dimen/padding"/>
     </ScrollView>
 </LinearLayout>

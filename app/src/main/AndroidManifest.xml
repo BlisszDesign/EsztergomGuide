@@ -21,8 +21,10 @@
             android:label="History of the town"
             android:theme="@style/CustomActionBar"></activity>
 
-        <activity android:name=".activities.InfoActivity"
-            android:theme="@style/CustomActionBar"></activity>
+        <activity
+            android:name=".activities.InfoActivity">
+
+        </activity>
     </application>
 
 </manifest>

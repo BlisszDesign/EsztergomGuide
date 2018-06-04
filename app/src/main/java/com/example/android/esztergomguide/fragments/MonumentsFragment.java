@@ -3,6 +3,10 @@ package com.example.android.esztergomguide.fragments;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v7.widget.DefaultItemAnimator;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -10,6 +14,7 @@ import android.widget.AdapterView;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.android.esztergomguide.R;
 import com.example.android.esztergomguide.activities.InfoActivity;
@@ -22,6 +27,9 @@ public class MonumentsFragment extends Fragment {
     public int info;
     private ImageView cover;
     private TextView coverLabel;
+    private RecyclerView recyclerView;
+    private RecyclerView.LayoutManager layoutManager;
+    private CatalogAdapter adapter;
 
     public MonumentsFragment() {
 
@@ -31,6 +39,11 @@ public class MonumentsFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.list, container, false);
+        recyclerView = (RecyclerView)rootView.findViewById(R.id.list_item);
+        layoutManager = new LinearLayoutManager(getActivity());
+        recyclerView.setLayoutManager(layoutManager);
+        recyclerView.setItemAnimator(new DefaultItemAnimator());
+        recyclerView.setHasFixedSize(true);
         cover = (ImageView) rootView.findViewById(R.id.background);
         coverLabel = (TextView) rootView.findViewById(R.id.layoutName);
         cover.setImageResource(R.drawable.bazilika);
@@ -46,19 +59,19 @@ public class MonumentsFragment extends Fragment {
         catalog.add(new Catalog(R.string.primate, R.drawable.ppalota));
         catalog.add(new Catalog(R.string.christian, R.drawable.matias));
 
-        final CatalogAdapter adapter = new CatalogAdapter(getActivity(),catalog);
-        ListView listView = (ListView) rootView.findViewById(R.id.list);
-        listView.setAdapter(adapter);
+        adapter = new CatalogAdapter(getActivity(), catalog);
+        recyclerView.setAdapter(adapter);
 
-        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        adapter.setOnItemClickListener(new CatalogAdapter.OnItemClickListener() {
             @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+            public void onItemClick(int position) {
                 Intent intent = new Intent(getActivity(), InfoActivity.class);
-                Catalog clickedItem = (Catalog) adapter.getItem(position);
-               info = clickedItem.getLabel();
+                Catalog clickedItem = (Catalog) catalog.get(position);
+                info = clickedItem.getLabel();
                 intent.putExtra("infos", info);
                 startActivity(intent);
             }
         });
+
     return rootView;}
 }

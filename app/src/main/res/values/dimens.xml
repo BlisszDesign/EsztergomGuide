@@ -3,4 +3,16 @@
     <dimen name="menu_margins">20dp</dimen>
     <dimen name="text_top_margin">25dp</dimen>
     <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="big_layout_margin">140dp</dimen>
+    <dimen name="big_text">36sp</dimen>
+    <dimen name="big_top_margin">151dp</dimen>
+    <dimen name="text_size">18sp</dimen>
+    <dimen name="big_height">203dp</dimen>
+    <dimen name="margin_top">72dp</dimen>
+    <dimen name="title_text">28sp</dimen>
+    <dimen name="text_size_small">16sp</dimen>
+    <dimen name="padding">30dp</dimen>
+    <dimen name="cv_height">130dp</dimen>
+    <dimen name="card_view">10dp</dimen>
+    <dimen name="small_title">24sp</dimen>
 </resources>
